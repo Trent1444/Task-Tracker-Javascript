@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your List Of Items To Do</title>
+    <link rel="icon" href="./images/notebook.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <button>Clear All</button>
       <h1>Keep Track Of Everything</h1>
-      <h1>Complete Your Goals</h1>
-      <button onclick="createCard()">Add Task</button>
+      <input type="text" />
+      <button onclick="createCard()" id="add-task">Add Task</button>
+      <button onclick="clearAll" id="clear-all">Clear All</button>
     </header>
     <section class="sidebar">
       <h2 class="sidebarTitle">Your Tasks</h2>
